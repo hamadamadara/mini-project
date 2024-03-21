@@ -49,7 +49,7 @@ public class ajouterLivre extends HttpServlet {
         Livre L = new Livre(ISBN, nom, Editeur, dateEdition, Resume, MotsCles, Auteurs);
         conn.insertLivre(L);
 
-        // Redirect to a success page or display a message
+         Redirect to a success page or display a message
        // response.sendRedirect("success.jsp");
     }
 }
